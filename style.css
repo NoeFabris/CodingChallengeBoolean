@@ -1,0 +1,56 @@
+body{
+  background-image: url(IMG/background.jpg);
+  background-size: cover;
+  text-align:center;
+  font-family: 'Roboto', sans-serif;
+}
+body .box{
+  width: 1000px;
+  padding: 70px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4%;
+  margin-top: 50px;
+}
+img {
+  width: 300px;
+}
+ div .text1{
+  color: #32cd32;
+  margin: 10px;
+}
+nav {
+  background-color: #32cd32;
+  padding: 10px;
+}
+main div{
+  text-align: left;
+  color: white;
+  padding-bottom: 2px;
+}
+main .text2 {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/*  barre carica batterie */
+div .media{
+  width: 200px;
+  height:20px;
+  background: rgba(255, 141, 57, 1);
+  border-radius: 5%;
+}
+
+div .alta{
+  width: 600px;
+  height:20px;
+  background: rgba(9, 160, 9, 1);
+  border-radius: 5%;
+}
+
+div .bassa{
+  width: 100px;
+  height:20px;
+  background: rgba(177, 44, 44, 1);
+  border-radius: 5%;
+}
